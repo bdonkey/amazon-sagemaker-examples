@@ -1,0 +1,104 @@
+    1  pwd
+    2  ls -la
+    3  git config --global user.name "bdonkey"
+    4  git config --global user.email "scott.schmidt1001@gmail.com"
+    5  ssh-keygen -t rsa -b 4096 -C "scott.schmidt1001@gmail.com"
+    6  eval "$(ssh-agent -s)"
+    7  ls
+    8  ls -la
+    9  cat .ssh/id_rsa.pub 
+   10  pwd
+   11  git clone git@github.com:bdonkey/amazon-sagemaker-examples.git
+   12  cd amazon-sagemaker-examples/
+   13  git status
+   14  git remote add upstream https://github.com/aws/amazon-sagemaker-examples.git
+   15  git pull upstream master
+   16  git push
+   17  git checkout -b ssdev
+   18  git push -u origin ssdev
+   19  history
+   20  ls /mnt
+   21  ls -la /
+   22  ls -la /mnt
+   23  ls -la /opt
+   24  ls -la /media
+   25  cd /
+   26  ls
+   27  ls -la boot
+   28  ls -la etc
+   29  mount
+   30  mountP
+   31  mount |grep fs
+   32  ls /opt
+   33  ls -la /opt
+   34  ls -la /opt/.sagemakerinternal/
+   35  ls -la
+   36  git status
+   37  pwd
+   38  cd ..
+   39  ls
+   40  ls -la
+   41  cd sagemaker-user/
+   42  ls
+   43  ls -la
+   44  git 
+   45  git help -a
+   46  git describe
+   47  git config
+   48  git config --get-all
+   49  git config --global
+   50  ls -la
+   51  git config -list
+   52  git config --list
+   53  cd .ssh
+   54  ls -la
+   55  cd /
+   56  ls -la
+   57  cd mnt
+   58  ls -la
+   59  cd /dev
+   60  ls -la
+   61  cd /tmp
+   62  ls -la
+   63  cd /
+   64  ls
+   65  ls -la mnt
+   66  ls -la var
+   67  ls -la /etc
+   68  pwd
+   69  cd home/sagemaker-user/
+   70  ls
+   71  touch test.txt
+   72  ls
+   73  jupyter labextension list
+   74  pwd
+   75  which vim
+   76  vim
+   77  uname -a
+   78  sudo -ls
+   79  sudo -ls -la
+   80  sudo cd  /
+   81  sudo
+   82  sudo ls -la
+   83  pwd
+   84  ls -la
+   85  cd ..
+   86  sudo ls -la
+   87  sudo yum install vim-enhanced -y
+   88  which vim
+   89  cd sagemaker-user/
+   90  ls -la
+   91  vim ssNotes.md 
+   92  pwd
+   93  ls
+   94  ls -la
+   95  git status
+   96  cat .gitconfig
+   97  history
+   98  pwd
+   99  ls -la
+  100  cd amazon-sagemaker-examples/
+  101  git status
+  102  cd ..
+  103  cd amazon-sagemaker-examples/
+  104  history > bashHistory.txt
